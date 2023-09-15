@@ -1,4 +1,4 @@
-/* import About from './components/About'; */
+import About from './components/About';
 import Summary from './components/Summary';
 import Navbar from './components/Navbar';
 /* import Projects from './components/Projects'; */
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <Summary />
       <Skills />
-      {/* <About /> */}
+      <About />
       {/* <Projects /> */}
     </>
   );
